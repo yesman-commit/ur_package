@@ -1,0 +1,102 @@
+{
+	"folders": [
+		{
+			"path": "../../../../visp_ws"
+		},
+		{
+			"path": "../../../../visp_ws/src/vision_visp/visp_auto_tracker"
+		},
+		{
+			"path": "../../../../visp_ws/src/vision_visp/visp_tracker"
+		},
+		{
+			"path": "../../../../../../../usr/lib/python2.7/dist-packages/pywt"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../ur_ws/src/moveit_jog_arm"
+		}
+	],
+	"settings": {
+		"python.autoComplete.extraPaths": [
+			"/home/tsuchida/ros_workspace/ur_ws/devel/lib/python2.7/dist-packages", 
+			"/home/tsuchida/ros_workspace/catkin_ws/devel/lib/python2.7/dist-packages",
+			"/opt/ros/melodic/lib/python2.7/dist-packages",
+			"/home/tsuchida/virtual/venu/lib/python3.6/site-packages/"
+		],
+		"python.linting.pylintArgs": [
+			"--extension-pkg-whitelist=cv2"
+		],
+		"files.associations": {
+			"cctype": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"csignal": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"array": "cpp",
+			"atomic": "cpp",
+			"strstream": "cpp",
+			"*.tcc": "cpp",
+			"bitset": "cpp",
+			"chrono": "cpp",
+			"complex": "cpp",
+			"condition_variable": "cpp",
+			"cstdint": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"vector": "cpp",
+			"exception": "cpp",
+			"hash_map": "cpp",
+			"hash_set": "cpp",
+			"fstream": "cpp",
+			"functional": "cpp",
+			"future": "cpp",
+			"initializer_list": "cpp",
+			"iomanip": "cpp",
+			"iosfwd": "cpp",
+			"iostream": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"mutex": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"numeric": "cpp",
+			"ratio": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"system_error": "cpp",
+			"thread": "cpp",
+			"cfenv": "cpp",
+			"cinttypes": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"typeindex": "cpp",
+			"typeinfo": "cpp",
+			"valarray": "cpp",
+			"codecvt": "cpp",
+			"algorithm": "cpp",
+			"iterator": "cpp",
+			"map": "cpp",
+			"memory": "cpp",
+			"memory_resource": "cpp",
+			"optional": "cpp",
+			"random": "cpp",
+			"set": "cpp",
+			"string": "cpp",
+			"string_view": "cpp"
+		}
+	}
+}
