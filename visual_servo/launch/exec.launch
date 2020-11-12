@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="visual_servo" type="visual_servo_2" name="final_cpy" output="screen">
+        <remap from="camera/image_raw" to="/image_raw"/>
+        <remap from="camera/cam_info" to="/cam_info"/>
+        <!--remap from="/jog_server/delta_jog_cmds" to="deka_cmd"/-->
+        
+        
+    </node>
+    <!--node pkg="image_view" type="image_view" name="image_view">
+        <remap from="image" to="/image_raw"/>
+    </node-->
+</launch>

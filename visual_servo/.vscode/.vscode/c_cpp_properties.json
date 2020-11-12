@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/tsuchida/ros_workspace/ur_ws/devel/include",
+        "/home/tsuchida/ros_workspace/catkin_ws/devel/include",
+        "/opt/ros/melodic/include",
+        "/home/tsuchida/ros_workspace/move_ws/src/opencv_ros/include",
+        "/home/tsuchida/ros_workspace/move_ws/src/visual_servo/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}

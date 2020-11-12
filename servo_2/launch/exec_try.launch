@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="servo_2" type="servo_2_l" name="servo_2_l">
+        <remap from="camera/image_raw" to="camera/image_raw"/>
+        <remap from="camera/cam_info" to="camera/cam_info"/>
+    </node>
+
+</launch>

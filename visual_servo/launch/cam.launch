@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="visual_servo" type="cam_info" name="cam_info" output="screen">
+        <remap from="/usb_cam/camera_info" to="/camera/camera_info"/>
+        
+    </node>
+</launch>

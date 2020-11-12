@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/tsuchida/ros_package/ur_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.pythonPath": "/home/tsuchida/virtual/tensorflow/bin/python"
+}
