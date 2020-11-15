@@ -24,4 +24,9 @@ When you install, please type this command
 ```
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
+mv src/ur5_with_robotiq_gripper ~/
+catkin_make 
+mv ~/ur5_with_robotiq_gripper src/
+catkin_make
+
 ```
