@@ -210,7 +210,11 @@ void CB(const sensor_msgs::ImageConstPtr& msg)
         
         vpColVector v_c(6);
         std::cout << "cMo_vec size is " << cMo_vec.size() << std::endl;
+<<<<<<< HEAD
         
+=======
+        cMo = cMo_vec[cMo_vec.size() - 1];
+>>>>>>> 88c5ce8ccdcf7d289346fab0ee0183cb69f121e4
         double pd_x = 0;
         double pd_y = 0;
         double pd_z = 0;
@@ -223,12 +227,19 @@ void CB(const sensor_msgs::ImageConstPtr& msg)
                 
         }
         coor << "p coordinate is " << std::endl;
+<<<<<<< HEAD
         for (size_t i = 0; i < 1; i++) {
            
             vpColVector cP;
             point[i].changeFrame(cMo * oMo, cP);
             p[i].set_x(cP[0]);
             p[i].set_y(cP[1]);
+=======
+        for (size_t i = 0; i < corners.size(); i++) {
+            vpFeatureBuilder::create(p[i], cam, corners[i]);
+            vpColVector cP;
+            point[i].changeFrame(cMo * oMo, cP);
+>>>>>>> 88c5ce8ccdcf7d289346fab0ee0183cb69f121e4
             p[i].set_Z(cP[2]);
             
             coor << "x : " << p[i].get_x() << "  y: " << p[i].get_y() << " z : " << p[i].get_Z() << std::endl;
