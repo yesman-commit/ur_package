@@ -1,0 +1,17 @@
+{
+    "folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../gripper_ws/src/new_gripper"
+		}
+	],
+    "settings": {
+        "python.autoComplete.extraPaths": [
+            "/home/tsuchida/ros_package/ur_ws/devel/lib/python2.7/dist-packages",
+            "/home/tsuchida/ros_package/catkin_ws/devel/lib/python2.7/dist-packages",
+            "/opt/ros/melodic/lib/python2.7/dist-packages"
+        ]
+    }
+}
