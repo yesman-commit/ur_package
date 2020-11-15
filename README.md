@@ -20,8 +20,10 @@ mv (subfoldername)/(name trouble repository) (name trouble repository)
 git add (name trouble repository)
 
 ```
+
 When you install, please type this command
 ```
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
+catkin_make
 ```
