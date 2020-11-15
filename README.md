@@ -10,6 +10,16 @@ git pull --allow-unrelated-histories origin master
 git push -u origin master
 ```
 
+When you go to the trouble, please type this
+```
+rm -rf (name trouble repository)/.git
+mv (name trouble repository) (subfoldername)/
+git submodule deinit (name trouble repository)
+git rm --cached (name trouble repository)
+mv (subfoldername)/(name trouble repository) (name trouble repository)
+git add (name trouble repository)
+
+```
 When you install, please type this command
 ```
 rosdep update
